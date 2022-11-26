@@ -11,21 +11,23 @@ Add it in your root build.gradle at the end of repositories:
 
 ```	
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
-	} 
+	repositories {
+		...
+		maven { url 'https://jitpack.io' }
+	}
+} 
 ```
 
 > Step 2. Add the dependency
 
 Add it in your root app.gradle at the end of repositories:
 
-```	
+```java	
 dependencies {
-	        implementation 'com.github.sanjay-yadav-cs:SendMail:1.0.0'
-	}
+		...
+	implementation 'com.github.sanjay-yadav-cs:SendMail:1.0.0'
+		...
+}
   ```
   
   
